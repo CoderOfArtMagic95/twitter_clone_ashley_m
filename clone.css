@@ -1,0 +1,170 @@
+
+.flex-container{
+    display:flex;
+    background-color: #5936f3;
+}
+.flex-container > div{
+    background-color: #2e91be;
+    margin: 40px;
+    padding: 30px;
+}
+.column-1{
+    float:left;
+    width: 25%;
+    border: 20px solid #0088ce;
+}
+
+.column-2{
+    float:inherit;
+    width: 50%;
+    border: 20px solid #0088ce;
+}
+.column-3{
+    float: right;
+    width: 25%;
+    padding-right: 40px;
+    margin-right: 20px;
+    border: 20px solid #0088ce;
+}
+footer{
+    float: none;
+    height: 40px;
+    width: 100%;
+    display: flex;
+	flex-flow: column wrap;/* flex-direction and wrap */
+	justify-content: center;
+    align-content: center;
+    text-align: center;
+	flex: auto;
+    list-style: none;
+    padding: 30;
+    overflow: hidden;
+    background-color: rgb(201, 132, 42);
+    
+    
+}
+@media only screen and (max-width: 600px){
+   .column-1{
+       width: 100%;
+   }
+}
+.search-bar{
+    float: left;
+    width: fit-content;
+    font-size : 20px;
+    padding: -10px;
+    margin: -10px;
+}
+.search-button{
+  width: 2em;
+  height: 1.5em;
+  background-color: #dde00c;
+  border-radius: 2px;
+  padding: 6px;
+  margin: -5px 10px 20px 10px;
+}
+.img-adjust{
+    max-width: fit-content;
+    border-radius: 100%;
+    float: left;
+}
+.logo-adjust-background{
+    font-family: "Pacifico";
+    font-size: 15px;
+    padding:0%;
+    margin: -5px;
+    text-align: center;
+}
+.para-font{
+    font-size: 30px;
+    float: none;
+    text-align: center;
+}
+/*Sets up heading above navigation bar*/
+h1{
+    text-align: center;
+    font-family: "Pacifico";
+    font-size: 35px;
+    font-style: oblique;
+}
+/*Sets up background for website*/
+html{
+    background-color: #2e91be;
+    color:#5936f3;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+
+}
+/*Sets up main nested article, h3, aside,and nav elements */
+main article, main h3,main aside,main nav,main p{
+    text-align: center;
+    font-size: 20px;
+    font-family: "Oswald";
+}
+/*Sets up button configurations*/
+button{
+    block-size: 50px;
+    width: 100px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+button:hover{
+    background-color: #0088ce;
+}
+
+/*=====CSS for Dropdown Menus=====*/
+
+ul {
+    list-style-type:none;
+    margin: -10;
+    padding: 30;
+    overflow: hidden;
+    background-color: rgb(201, 132, 42);
+}
+
+li {
+    font-size: large;
+    float: left;
+    padding: 10px;
+    margin: 30px;
+}
+
+li a, .dropbtn {
+    display:block;
+    font-size: large;
+    color: rgb(240, 235, 235);
+    text-align: center;
+    text-decoration: none;
+    overflow: visible;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: rgba(218, 167, 50, 0.9);
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(223, 214, 214, 0.2);
+}
+
+.dropdown-content a {
+    color: rgb(15, 14, 14);
+    padding: 12px 16px;
+    text-decoration: none;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #dfb018}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
