@@ -1,11 +1,20 @@
-
+nav{
+    list-style-type: none;
+}
 .flex-container{
-    display:flex;
+    display: flex;
     background-color: #5936f3;
+    margin: -10px;
+    height: 4000;
+}
+.border-nav{
+    border: 10px solid #5936f3;
+    padding: 60px;
+    margin: -60px;
 }
 .flex-container > div{
     background-color: #2e91be;
-    margin: 40px;
+    margin: 10px;
     padding: 30px;
 }
 .column-1{
@@ -21,13 +30,12 @@
 }
 .column-3{
     float: right;
-    width: 25%;
+    width: 30%;
     padding-right: 40px;
-    margin-right: 20px;
     border: 20px solid #0088ce;
 }
 footer{
-    float: none;
+    float: right;
     height: 40px;
     width: 100%;
     display: flex;
@@ -37,7 +45,9 @@ footer{
     text-align: center;
 	flex: auto;
     list-style: none;
-    padding: 30;
+    padding: 60;
+    
+    margin-left: 90px;
     overflow: hidden;
     background-color: rgb(201, 132, 42);
     
