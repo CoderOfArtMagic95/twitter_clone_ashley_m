@@ -1,5 +1,15 @@
+
 nav{
     list-style-type: none;
+}
+.trends-list-settings{
+    float: left;
+}
+.article-division{
+    border: solid 2px black;
+    float: none;
+    padding: 20 20 20 20;
+    margin: -20 0 0 -20;
 }
 .flex-container{
     display: flex;
@@ -8,9 +18,27 @@ nav{
     height: 4000;
 }
 .border-nav{
-    border: 10px solid #5936f3;
-    padding: 60px;
+    border: 5px solid #5936f3;
+    padding: 40px;
     margin: -60px;
+}
+.border-nav-2{
+    float: left;
+    border: 2px solid #5936f3;
+    font-size: 30px;
+    width: 100%;
+    padding: 60px 60px;
+    margin: 20px;
+    overflow: hidden;
+}
+.border-nav-3{
+    float: left;
+    border: 2px solid #5936f3;
+    font-size: 30px;
+    width: 100%;
+    padding: 100px 100px;
+    margin: -20px 20px;
+    overflow: hidden;
 }
 .flex-container > div{
     background-color: #2e91be;
@@ -46,17 +74,11 @@ footer{
 	flex: auto;
     list-style: none;
     padding: 60;
-    
     margin-left: 90px;
     overflow: hidden;
     background-color: rgb(201, 132, 42);
     
     
-}
-@media only screen and (max-width: 600px){
-   .column-1{
-       width: 100%;
-   }
 }
 .search-bar{
     float: left;
@@ -124,7 +146,7 @@ button:hover{
     background-color: #0088ce;
 }
 
-/*=====CSS for Dropdown Menus=====*/
+/*CSS for Dropdown Menus*/
 
 ul {
     list-style-type:none;
